@@ -21,7 +21,7 @@ You can install `ElectricalData` directly into any WPILib robot project using th
 
 ## Usage
 
-`ElectricalData` automatically detects whether you pass a CTRE or REV motor and handles fetching supply current, bus voltage, and CAN connection health—no manual signal polling required!
+`ElectricalData` automatically detects whether you pass a CTRE or REV motor and handles fetching supply current, bus voltage, and CAN connection health, making it a simple one-line addition to your code.
 
 ### 1. Basic Integration in a Subsystem
 
@@ -83,7 +83,7 @@ Log Table
 
 ---
 
-## pported Hardware
+## Supported Hardware
 
 | Vendor | Hardware Class | Supported Devices |
 | :--- | :--- | :--- |
