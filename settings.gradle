@@ -1,0 +1,10 @@
+pluginManagement {
+    repositories {
+        maven {
+            url = 'https://frcmaven.wpi.edu/artifactory/release'
+        }
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'ElectricalData'
