@@ -11,10 +11,7 @@ You can install `ElectricalData` directly into any WPILib robot project using th
 1. Open your robot project in **VS Code**.
 2. Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac) and select **WPILib: Manage Vendor Libraries**.
 3. Choose **Install new libraries (online)**.
-4. Paste the following URL:
-   ```text
-   [https://raw.githubusercontent.com/FRC9015/ElectricalData/main/ElectricalData.json](https://raw.githubusercontent.com/FRC9015/ElectricalData/main/ElectricalData.json)
-   ```
+4. Paste the following URL: https://raw.githubusercontent.com/FRC9015/ElectricalData/main/ElectricalData.json
 5. Press **Enter**. WPILib will automatically add `ElectricalData` to your project's `vendordeps/` directory.
 
 ---
