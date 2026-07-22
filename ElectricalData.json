@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "uuid": "f9015000-9015-9015-9015-electrical00",
   "mavenUrls": [
-    "https://jitpack.io"
+    "https://frc9015.github.io/ElectricalData/maven-repo"
   ],
   "jsonUrl": "https://raw.githubusercontent.com/FRC9015/ElectricalData/main/ElectricalData.json",
   "javaDependencies": [

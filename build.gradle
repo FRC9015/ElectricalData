@@ -42,13 +42,7 @@ publishing {
     }
     repositories {
         maven {
-            name = "GitHubPackages"
-            // Replace YOUR_ORG_OR_USERNAME with your team's GitHub organization name
-            url = uri("https://maven.pkg.github.com/YOUR_ORG_OR_USERNAME/ElectricalData")
-            credentials {
-                username = System.getenv("GITHUB_ACTOR") ?: project.findProperty("gpr.user")
-                password = System.getenv("GITHUB_TOKEN") ?: project.findProperty("gpr.key")
-            }
+            url = uri("${rootProject.buildDir}/repos/releases")
         }
     }
 }
