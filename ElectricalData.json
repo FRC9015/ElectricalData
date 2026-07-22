@@ -3,6 +3,7 @@
   "name": "ElectricalData",
   "version": "1.0.0",
   "uuid": "f9015000-9015-9015-9015-electrical00",
+  "frcYear": 2026,
   "mavenUrls": [
     "https://frc9015.github.io/ElectricalData/maven-repo"
   ],
